@@ -1,0 +1,60 @@
+/*
+Cores do projeto:
+
+Principal: #FFD71B
+SecundÃ¡rias:
+ #FFE369
+ #806B0E
+ #807234
+ #CCAB16
+
+Fontes do projeto:
+
+ A ser pesquisado
+
+
+*/
+
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:ital,wght@1,200;1,800&display=swap');
+
+:root {
+
+    --cor-principal: #FFD71B;
+
+    --cor-secund-01: #FFE369;
+    --cor-secund-02: #ccab16;
+    --cor-secund-03: #807234;
+    --cor-secund-04: #806B0E;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: white;
+}
+
+header {
+
+}
+.top {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.mid {
+
+}
+main {
+
+}
+
+footer {
+
+}
