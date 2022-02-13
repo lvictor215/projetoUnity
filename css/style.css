@@ -45,7 +45,6 @@ body {
 /* Menu / Header */
 .menu_a {
     text-decoration: none;
-    color: black;
 }
 
 .menu_a:hover {
@@ -59,6 +58,7 @@ body {
     padding: 0 25px;
 }
 .header {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -112,3 +112,20 @@ body {
     text-align: center;
 }
 
+/* Footer */
+
+footer {
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
