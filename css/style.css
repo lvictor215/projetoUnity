@@ -134,10 +134,35 @@ footer > p > a {
     .menu{
         display: grid;
         grid-column: 1;
-        grid-gap: 20px;
+        grid-gap: 1vw;
         margin: 0 auto;
         max-width: 800px;
         padding: 10px;
     
     }
+
+    .logo {
+        max-width: 22vw;
+    }
+
+    .header {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px;
+        flex-flow: column-reverse;
+        text-align: center;
+        
+    }
+
+    .menu li a {
+        display: block;
+        padding: 10px;
+        color: black;
+        font-size: 4vw;
+    }
+
+
 }
