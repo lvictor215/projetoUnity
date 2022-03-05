@@ -108,8 +108,33 @@ body {
 .conteudo_1 {
     height: 500px;
     width: 100%;
-    background-color: #ffd71b;
+    background:#fff url(../img/fundo1.png);
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.conteudo_1_a {
+    padding: 0;
+    font-size: 0.75em;
+    text-align: left;
+    width:500px;
+    height:200px;
+    
+}
+
+
+.conteudo_1_b {
+    padding: 0;
+    font-size: 0.75em;
+    text-align: left;
+    width:500px;
+    height:200px;
+    
+    
+}
+.conteudo_1_c {
+    
 }
 
 .conteudo_2 {
